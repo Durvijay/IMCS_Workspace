@@ -1,0 +1,33 @@
+
+jsquid:S1197"8Move the array designator from the variable to the type.(²Á€œüÿÿÿÿHÊRMINORZ
+CODE_SMELL
+nsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Ô¸ šHËRMINORZ
+CODE_SMELL
+_squid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿHÌRCRITICALZ
+CODE_SMELL
+asquid:S2095%"4Close this "FileOutputStream" in a "finally" clause.(õñ±°úÿÿÿÿHÍRBLOCKERZBUG
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿHÎRMAJORZ
+CODE_SMELL
+gsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHÏRMAJORZ
+CODE_SMELL
+gsquid:S1141$"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHÐRMAJORZ
+CODE_SMELL
+gsquid:S1141-"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHÑRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÒRINFOZ
+CODE_SMELL
+csquid:S1135'"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÓRINFOZ
+CODE_SMELL
+csquid:S11356"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÔRINFOZ
+CODE_SMELL
+csquid:S1135;"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÕRINFOZ
+CODE_SMELL
+gsquid:S2259?"AA "NullPointerException" could be thrown; "fos" is nullable here.(ªÛ“­HÖRMAJORZBUG
+gsquid:S2259>"AA "NullPointerException" could be thrown; "bos" is nullable here.(§óÎ×H×RMAJORZBUG
+Xsquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHØRMINORZVULNERABILITY
+Xsquid:S1148("#Use a logger to log this exception.(ÂþÿâûÿÿÿÿHÙRMINORZVULNERABILITY
+Xsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÚRMINORZVULNERABILITY
+Xsquid:S1148<"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÛRMINORZVULNERABILITY
+q
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(´ÂÖÙHÜRMINORZVULNERABILITY

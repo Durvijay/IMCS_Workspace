@@ -1,0 +1,28 @@
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		String str="madam";
+		int start=str.length()/2;
+		int end=str.length()/2;
+		if(str.length()%2==0){
+			System.out.println(checkPalindrome(str,start , end));
+		}else{
+			System.out.println(checkPalindrome(str, start-1, end+1));
+		}
+		
+	}
+
+	
+	public static boolean checkPalindrome(String str, int start, int end) {
+		while (start >= 0 && end < str.length() && str.charAt(start) == str.charAt(end)) {
+			start--;
+			end++;
+		}
+		if (start == -1 && end == str.length())
+			return true;
+		else
+			return false;
+	}
+
+}

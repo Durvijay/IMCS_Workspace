@@ -1,0 +1,21 @@
+
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ý—÷ùÿÿÿÿHØRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(‹è–ÇHÙRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(Õè†–ýÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸ÆèÀHÛRMAJORZ
+CODE_SMELL
+d
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡õßHÜRMAJORZ
+CODE_SMELL
+d
+squid:S106$"9Replace this use of System.out or System.err by a logger.(îéeHÝRMAJORZ
+CODE_SMELL
+Vsquid:S00108%")Either remove or fill this block of code.(Û°¹OHÞRMAJORZ
+CODE_SMELL
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(òÔœªýÿÿÿÿHßRMINORZ
+CODE_SMELL
+Ssquid:S1148""#Use a logger to log this exception.(Ïª«HàRMINORZVULNERABILITY

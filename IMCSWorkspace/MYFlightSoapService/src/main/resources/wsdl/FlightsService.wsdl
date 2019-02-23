@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:tns="http://trng.imcs.soap/FlightsService/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FlightsService"
+	targetNamespace="http://trng.imcs.soap/FlightsService/" xmlns:xsd1="http://trng.imcs.soap/FlightOperations">
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+			<xsd:import namespace="http://trng.imcs.soap/FlightOperations"
+				schemaLocation="../xsd/FlightOperations.xsd">
+			</xsd:import>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="getFlightsRequest">
+		<wsdl:part element="xsd1:GetFlightsRequest" name="parameters" />
+	</wsdl:message>
+	<wsdl:message name="getFlightsResponse">
+		<wsdl:part element="xsd1:GetFlightsResponse" name="parameters" />
+	</wsdl:message>
+	<wsdl:message name="bookFlightsRequest">
+		<wsdl:part name="parameters" element="xsd1:BookFlightRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="bookFlightsResponse">
+		<wsdl:part name="parameters" element="xsd1:BookFlightResponse"></wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="FlightsService">
+		<wsdl:operation name="getFlights">
+			<wsdl:input message="tns:getFlightsRequest" />
+			<wsdl:output message="tns:getFlightsResponse" />
+		</wsdl:operation>
+		<wsdl:operation name="bookFlights">
+			<wsdl:input message="tns:bookFlightsRequest"></wsdl:input>
+			<wsdl:output message="tns:bookFlightsResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="FlightsServiceSOAP" type="tns:FlightsService">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="getFlights">
+			<soap:operation soapAction="http://trng.imcs.soap/FlightsService/getFlights" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="bookFlights">
+			<soap:operation soapAction="http://trng.imcs.soap/FlightsService/bookFlights" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+
+	</wsdl:binding>
+	<wsdl:service name="FlightsService">
+		<wsdl:port binding="tns:FlightsServiceSOAP" name="FlightsServiceSOAP">
+			<soap:address location="http://www.example.org/" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

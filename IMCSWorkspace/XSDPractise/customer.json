@@ -1,0 +1,28 @@
+{
+ "customerId": 1,
+  "name": "Jason Bond",
+  "dataOfBirth": "2017-07-08T15:30:56.782Z",
+  "anualSalary": 90000,
+  "address": [{
+    "aptNo": "25",
+    "streetNo": "715",
+    "streetName":"Border Place",
+    "city": "Arlington",
+    "state": "TX",
+    "zip": "76013"
+  }],
+  "paymentMethods": [
+    {
+      "cardNumber": "12345",
+      "cardName": "Nigesh Shakya",
+      "dateFrom": "2014-01-01T23:28:56.782Z",
+      "cardType": "CREDIT_CARD"
+    },
+    {
+      "cardNumber": "678090",
+      "cardName": "Nigesh Shakya",
+      "dateFrom": "2013-11-01T23:28:56.782Z",
+      "cardType": "DEBIT_CARD"
+    }
+  ]
+}

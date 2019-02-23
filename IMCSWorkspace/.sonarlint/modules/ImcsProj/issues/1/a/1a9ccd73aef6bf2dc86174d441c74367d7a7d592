@@ -1,0 +1,24 @@
+
+nsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(µ‹Ú÷H›#RMINORZ
+CODE_SMELL
+tsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ä®×äHœ#RMAJORZ
+CODE_SMELL
+nsquid:UselessImportCheck"/Remove this unused import 'java.io.FileWriter'.(Ã‘ÅÃıÿÿÿÿH#RMINORZ
+CODE_SMELL
+gsquid:S22595"AA "NullPointerException" could be thrown; "bos" is nullable here.(Éï‰­H#RMAJORZBUG
+_squid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿHŸ#RCRITICALZ
+CODE_SMELL
+nsquid:UselessImportCheck
+"/Remove this unused import 'java.io.FileReader'.(Â¡¢äşÿÿÿÿH #RMINORZ
+CODE_SMELL
+lsquid:S22593"AA "NullPointerException" could be thrown; "bis" is nullable here.(ö˜ØüÿÿÿÿH¡#RMAJORZBUG
+e
+squid:S1061"9Replace this use of System.out or System.err by a logger.(Í†¦³H¢#RMAJORZ
+CODE_SMELL
+msquid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²ÅH£#RMINORZ
+CODE_SMELL
+ssquid:S1075"ARefactor your code to get this URI from a customizable parameter.(¢µ°ìÿÿÿÿÿH¤#RMINORZ
+CODE_SMELL
+lsquid:UselessImportCheck"3Remove this unused import 'java.io.BufferedWriter'.(¬õº/H¥#RMINORZ
+CODE_SMELL
+\squid:S2095"4Close this "FileOutputStream" in a "finally" clause.(¼—„°H¦#RBLOCKERZBUG

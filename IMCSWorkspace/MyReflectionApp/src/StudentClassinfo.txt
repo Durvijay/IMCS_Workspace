@@ -1,0 +1,3 @@
+class=trng.reflection.Student
+methods=setStudentNo##java.lang.Integer#1234;setStudentName##java.lang.String#Mohan
+fields=

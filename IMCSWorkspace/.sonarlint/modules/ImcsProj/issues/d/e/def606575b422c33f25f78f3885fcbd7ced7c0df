@@ -1,0 +1,13 @@
+
+nsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(µ‹Ú÷H&RMINORZ
+CODE_SMELL
+tsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ä®×äH&RMAJORZ
+CODE_SMELL
+squid:UselessImportCheck	"PRemove this unused import 'javax.print.attribute.standard.OutputDeviceAssigned'.(ÕÕŞ‚úÿÿÿÿH&RMINORZ
+CODE_SMELL
+[squid:S2095".Close this "FileWriter" in a "finally" clause.(€¼Ú¼ÿÿÿÿÿH&RBLOCKERZBUG
+_squid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿH‘&RCRITICALZ
+CODE_SMELL
+fsquid:S2259,"@A "NullPointerException" could be thrown; "br" is nullable here.(µÖ€’H’&RMAJORZBUG
+ssquid:S1075"ARefactor your code to get this URI from a customizable parameter.(¢µ°ìÿÿÿÿÿH“&RMINORZ
+CODE_SMELL

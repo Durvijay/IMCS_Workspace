@@ -1,0 +1,6 @@
+bootstrap.config.on.startup=true
+
+magnolia.develop=true
+magnolia.home=D:\\SWInstallation\\MagnoilaProject\\trillitech-crescendo-magnolia-challenge-b84ea9dec560
+magnolia.resources.dir=D:\SWInstallation\MagnoilaProject\trillitech-crescendo-magnolia-challenge-b84ea9dec560\light-modules
+magnolia.update.auto=true

@@ -1,0 +1,65 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class test {
+	public String solution(String S) {
+		// write your code in Java SE 8
+		Set<String> music = new HashSet<>();
+		music.add("mp3");
+		music.add("aac");
+		music.add("flac");
+		Set<String> image = new HashSet<>();
+		image.add("jpg");
+		image.add("bmp");
+		image.add("gif");
+		Set<String> movie = new HashSet<>();
+		movie.add("mp4");
+		movie.add("avi");
+		movie.add("mkv");
+		Map<String, Integer> fileTypeAndSize = new HashMap<>();
+		fileTypeAndSize.put("music", 0);
+		fileTypeAndSize.put("image", 0);
+		fileTypeAndSize.put("movie", 0);
+		fileTypeAndSize.put("other", 0);
+
+		String[] filesInfo = S.split("\n");
+		int recordIndex = 0;
+		while (recordIndex < filesInfo.length) {
+			String[] input = filesInfo[recordIndex].split(" ");
+			int index = 0;
+			String fileExt = input[index].substring(input[index].lastIndexOf(".") + 1, input[index].length());
+			index++;
+			int fileSize = Integer.valueOf(input[index].substring(0, input[index].length() - 1));
+			recordIndex++;
+			if (music.contains(fileExt))
+				fileTypeAndSize.put("music", fileTypeAndSize.get("music") + fileSize);
+			else if (image.contains(fileExt))
+				fileTypeAndSize.put("image", fileTypeAndSize.get("image") + fileSize);
+			else if (movie.contains(fileExt))
+				fileTypeAndSize.put("movie", fileTypeAndSize.get("movie") + fileSize);
+			else
+				fileTypeAndSize.put("other", fileTypeAndSize.get("other") + fileSize);
+		}
+		return buildString(fileTypeAndSize);
+
+	}
+
+	private String buildString(Map<String, Integer> fileTypeAndSize) {
+		StringBuilder output = new StringBuilder();
+		output.append("music ");
+		output.append(fileTypeAndSize.get("music"));
+		output.append("b\n");
+		output.append("images ");
+		output.append(fileTypeAndSize.get("image"));
+		output.append("b\n");
+		output.append("movies ");
+		output.append(fileTypeAndSize.get("movie"));
+		output.append("b\n");
+		output.append("other ");
+		output.append(fileTypeAndSize.get("other"));
+		output.append("b");
+		return output.toString();
+	}
+}

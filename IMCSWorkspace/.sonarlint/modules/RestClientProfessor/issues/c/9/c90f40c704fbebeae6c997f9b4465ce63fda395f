@@ -1,0 +1,35 @@
+
+€squid:S3008"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦•ÂÈüÿÿÿÿH’5RMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åÊñËúÿÿÿÿH“5RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(ÙİÍÕÿÿÿÿÿH”5RMAJORZ
+CODE_SMELL
+d
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ÿ¦¬[H•5RMAJORZ
+CODE_SMELL
+d
+squid:S106J"9Replace this use of System.out or System.err by a logger.(•î»eH–5RMAJORZ
+CODE_SMELL
+d
+squid:S106."9Replace this use of System.out or System.err by a logger.(•î»eH—5RMAJORZ
+CODE_SMELL
+d
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ı˜BH˜5RMAJORZ
+CODE_SMELL
+†squid:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ğ«°H™5RMINORZ
+CODE_SMELL
+j
+squid:S106G"9Replace this use of System.out or System.err by a logger.(¢ÈÖ²úÿÿÿÿHš5RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(„—€H›5RMAJORZ
+CODE_SMELL
+†squid:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á¹ÙÏHœ5RMINORZ
+CODE_SMELL
+†squid:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ğ«°H5RMINORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(±à×H5RMAJORZ
+CODE_SMELL
+j
+squid:S106,"9Replace this use of System.out or System.err by a logger.(É¦ÉËøÿÿÿÿHŸ5RMAJORZ
+CODE_SMELL

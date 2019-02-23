@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://trng.imcs.wsdl/orderLibraryOperations" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://trng.imcs.wsdl/orderLibraryOperations" xmlns:Q1="http://trng.imcs.wsdl/orderLibrary">
+
+    <import schemaLocation="orderLibrary.xsd" namespace="http://trng.imcs.wsdl/orderLibrary"></import>
+
+
+    <complexType name="deleteCustomerRequest">
+    	<sequence>
+    		<element name="custId" type="integer"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="deleteCustomerResponse">
+    	<sequence>
+    		<element name="customer" type="Q1:Customer"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="createCustomerRequest">
+    	<sequence>
+    		<element name="customer" type="Q1:Customer"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="createCustomerResponse">
+    	<sequence>
+    		<element name="customer" type="Q1:Customer"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="createCustomerRequest" type="tns:createCustomerRequest"></element>
+
+    <element name="createCustomerResponse" type="tns:createCustomerResponse"></element>
+
+    <complexType name="updatePaymentMethodRequest">
+    	<sequence>
+    		<element name="paymentMethod" type="Q1:Payment"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="updatePaymentMethodResponse">
+    	<sequence>
+    		<element name="payment" type="Q1:Payment"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="newPaymentMethodRequest">
+    	<sequence>
+    		<element name="payment" type="Q1:Payment"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="newPaymentMethodResponse">
+    	<sequence>
+    		<element name="payment" type="Q1:Payment"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="findCustomerFullDataRequest">
+    	<sequence>
+    		<element name="custId" type="int"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="findCustomerFullDataResponse">
+    	<sequence>
+    		<element name="customer" type="Q1:Customer"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="findCustomerRequest">
+    	<sequence>
+    		<element name="custId" type="int"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="findCustomerResponse">
+    	<sequence>
+    		<element name="customer" type="Q1:Customer"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="findPaymentMehodsRequest">
+    	<sequence>
+    		<element name="custId" type="int"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="findPaymentMehodsResponse">
+    	<sequence>
+    		<element name="payment" type="Q1:Payment" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="getAllCustomersRequest"></complexType>
+
+    <complexType name="getAllCustomersResponse">
+    	<sequence>
+    		<element name="customer" type="Q1:Customer" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+
+    <element name="deleteCustomerRequest" type="tns:deleteCustomerRequest"></element>
+
+    <element name="deleteCustomerResponse" type="tns:deleteCustomerResponse"></element>
+
+    <element name="findCustomerFullDataRequest" type="tns:findCustomerFullDataRequest"></element>
+
+    <element name="findCustomerFullDataResponse" type="tns:findCustomerFullDataResponse"></element>
+
+    <element name="findCustomerRequest" type="tns:findCustomerRequest"></element>
+
+    <element name="findCustomerResponse" type="tns:findCustomerResponse"></element>
+
+    <element name="findPaymentMehodsRequest" type="tns:findPaymentMehodsRequest"></element>
+
+    <element name="findPaymentMehodsResponse" type="tns:findPaymentMehodsResponse"></element>
+
+    <element name="getAllCustomersRequest" type="tns:getAllCustomersRequest"></element>
+
+    <element name="getAllCustomersResponse" type="tns:getAllCustomersResponse"></element>
+
+    <element name="newPaymentMethodRequest" type="tns:newPaymentMethodRequest"></element>
+
+    <element name="newPaymentMethodResponse" type="tns:newPaymentMethodResponse"></element>
+
+
+
+    <element name="updatePaymentMethodRequest" type="tns:updatePaymentMethodRequest"></element>
+
+    <element name="updatePaymentMethodResponse" type="tns:updatePaymentMethodResponse"></element>
+</schema>

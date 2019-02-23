@@ -1,0 +1,7 @@
+
+†squid:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(è­ªHØ'RMINORZ
+CODE_SMELL
+±squid:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ³ÕĞHÙ'RCRITICALZ
+CODE_SMELL
+…squid:ModifiersOrderCheck""EReorder the modifiers to comply with the Java Language Specification.(™ÑøıÿÿÿÿH×'RMINORZ
+CODE_SMELL

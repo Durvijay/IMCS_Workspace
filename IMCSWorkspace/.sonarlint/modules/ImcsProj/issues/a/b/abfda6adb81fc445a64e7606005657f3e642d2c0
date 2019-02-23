@@ -1,0 +1,33 @@
+
+q
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(´ÂÖÙH¸#RMINORZVULNERABILITY
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿH¹#RMAJORZ
+CODE_SMELL
+gsquid:S2259>"AA "NullPointerException" could be thrown; "bos" is nullable here.(§óÎ×Hº#RMAJORZBUG
+Xsquid:S1148<"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿH»#RMINORZVULNERABILITY
+jsquid:S1197"8Move the array designator from the variable to the type.(²Á€œüÿÿÿÿH¼#RMINORZ
+CODE_SMELL
+csquid:S1135;"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿH½#RINFOZ
+CODE_SMELL
+_squid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿH¾#RCRITICALZ
+CODE_SMELL
+gsquid:S1141-"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿH¿#RMAJORZ
+CODE_SMELL
+Xsquid:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÀ#RMINORZVULNERABILITY
+gsquid:S1141$"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHÁ#RMAJORZ
+CODE_SMELL
+csquid:S1135'"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÂ#RINFOZ
+CODE_SMELL
+nsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Ô¸ šHÃ#RMINORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÄ#RINFOZ
+CODE_SMELL
+csquid:S11356"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿHÅ#RINFOZ
+CODE_SMELL
+gsquid:S2259?"AA "NullPointerException" could be thrown; "fos" is nullable here.(ªÛ“­HÆ#RMAJORZBUG
+gsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHÇ#RMAJORZ
+CODE_SMELL
+asquid:S2095%"4Close this "FileOutputStream" in a "finally" clause.(õñ±°úÿÿÿÿHÈ#RBLOCKERZBUG
+Xsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÉ#RMINORZVULNERABILITY
+Xsquid:S1148("#Use a logger to log this exception.(ÂþÿâûÿÿÿÿHÊ#RMINORZVULNERABILITY

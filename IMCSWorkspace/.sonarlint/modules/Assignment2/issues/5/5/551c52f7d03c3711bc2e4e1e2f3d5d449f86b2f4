@@ -1,0 +1,8 @@
+
+_squid:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8èˆØ£õ+HÜ RMINORZVULNERABILITY
+_squid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•»›ˆõ+HÛ RMINORZVULNERABILITY
+qsquid:S2589‰"7Remove this expression which always evaluates to "true"(Ö¤ñûÿÿÿÿ8˜Ì†÷+Hú RMAJORZ
+CODE_SMELL
+`squid:S1148„"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ãıçœ÷+Hù RMINORZVULNERABILITY
+ƒsquid:S1192J"GDefine a constant instead of duplicating this literal "Salary" 3 times.(›²¡üşÿÿÿÿ8ª¯…¦õ+HÚ RCRITICALZ
+CODE_SMELL

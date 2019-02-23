@@ -1,0 +1,8 @@
+
+Ä%squid:RedundantThrowsDeclarationCheckC"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ñÞñßùÿÿÿÿ8…å»™÷+HÏ4RMINORZ
+CODE_SMELL
+Xsquid:S1148>"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHÐ4RMINORZVULNERABILITY
+_squid:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8©ƒÈ™÷+HÑ4RMINORZVULNERABILITY
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÿÚå¿HÒ4RMINORZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Êñ«™÷+HÓ4RMINORZVULNERABILITY

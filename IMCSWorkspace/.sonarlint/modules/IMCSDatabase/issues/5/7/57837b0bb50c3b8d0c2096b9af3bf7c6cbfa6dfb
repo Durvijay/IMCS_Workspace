@@ -1,0 +1,16 @@
+
+]squid:S2095"5Close this "PreparedStatement" in a "finally" clause.(º½º°H…$RBLOCKERZBUG
+[squid:S2095".Close this "Connection" in a "finally" clause.(Åè‰âûÿÿÿÿH†$RBLOCKERZBUG
+qsquid:S1854;"?Remove this useless assignment to local variable "updateCount".(ĞªÆÂıÿÿÿÿH‡$RMAJORZ
+CODE_SMELL
+Xsquid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHˆ$RMINORZVULNERABILITY
+ssquid:S1075"ARefactor your code to get this URI from a customizable parameter.(­¤î¼ıÿÿÿÿH‰$RMINORZ
+CODE_SMELL
+bsquid:S14813"0Remove this unused "updateCount" local variable.(ĞªÆÂıÿÿÿÿHŠ$RMINORZ
+CODE_SMELL
+squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ›¾ïH‹$RMINORZ
+CODE_SMELL
+bsquid:S1481;"0Remove this unused "updateCount" local variable.(ĞªÆÂıÿÿÿÿHŒ$RMINORZ
+CODE_SMELL
+qsquid:S18543"?Remove this useless assignment to local variable "updateCount".(ĞªÆÂıÿÿÿÿH$RMAJORZ
+CODE_SMELL

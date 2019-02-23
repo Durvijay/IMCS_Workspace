@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Employee xmlns:tns="http://trng.imcs.xsd/employee" 
+xmlns:tns1="http://trng.imcs.xsd/Department" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://trng.imcs.xsd/employee ../xsd/employee.xsd ">
+  <tns:empId>12345</tns:empId>
+  <tns:name>Raju</tns:name>
+  <tns:salary>5000</tns:salary>
+  <tns:phoneNumbers>tns:phoneNumbers</tns:phoneNumbers>
+  <tns:address>
+    <tns:streetNo>1234</tns:streetNo>
+    <tns:streetName>MacArthur</tns:streetName>
+    <tns:zipCode>45454</tns:zipCode>
+  </tns:address>
+  <tns:empType>Senior</tns:empType>
+  <tns:department>
+    <tns1:deprtNo>10</tns1:deprtNo>
+    <tns1:name>Sales</tns1:name>
+    <tns1:location>Dallas</tns1:location>
+  </tns:department>
+</tns:Employee>

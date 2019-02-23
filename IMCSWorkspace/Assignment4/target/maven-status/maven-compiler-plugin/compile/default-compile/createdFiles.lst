@@ -1,0 +1,14 @@
+trng\imcs\hibernate\assignment4\service\CustomerDao.class
+trng\imcs\hibernate\assignment4\bean\Payment.class
+trng\imcs\hibernate\assignment4\service\AddressDao.class
+trng\imcs\hibernate\assignment4\util\HibernateUtils.class
+trng\imcs\hibernate\assignment4\serviceImpl\CustomerServiceImpl.class
+trng\imcs\hibernate\assignment4\CustomerApp.class
+trng\imcs\hibernate\assignment4\serviceImpl\AddressDaoImpl.class
+trng\imcs\hibernate\assignment4\bean\Customer.class
+trng\imcs\hibernate\assignment4\serviceImpl\PaymentDaoImpl.class
+trng\imcs\hibernate\assignment4\bean\Address.class
+trng\imcs\hibernate\assignment4\service\CustomerService.class
+trng\imcs\hibernate\assignment4\serviceImpl\CustomerDaoImpl.class
+trng\imcs\hibernate\assignment4\util\OperationsUtil.class
+trng\imcs\hibernate\assignment4\service\PaymentDao.class

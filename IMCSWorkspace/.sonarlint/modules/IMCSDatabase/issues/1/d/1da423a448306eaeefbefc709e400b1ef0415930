@@ -1,0 +1,42 @@
+
+csquid:S1135v"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHÒRINFOZ
+CODE_SMELL
+j
+squid:S1062"9Replace this use of System.out or System.err by a logger.(áèó­úÿÿÿÿHÌRMAJORZ
+CODE_SMELL
+Xsquid:S1148w"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH×RMINORZVULNERABILITY
+j
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(ØÆ¯ùÿÿÿÿHÏRMAJORZ
+CODE_SMELL
+j
+squid:S106t"9Replace this use of System.out or System.err by a logger.(å‰ü½ûÿÿÿÿHÑRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(Åâ±ÈHÉRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLinef"<This block of commented-out lines of code should be removed.(åàÏ½HËRMAJORZ
+CODE_SMELL
+Zsquid:S2095q"-Close this "Statement" in a "finally" clause.(“ÿ­şÿÿÿÿHÈRBLOCKERZBUG
+xsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(âåŞ¸HÊRMAJORZ
+CODE_SMELL
+jsquid:S1197n"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿHÅRMINORZ
+CODE_SMELL
+†squid:S2293\"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ï‹¯ØHÆRMINORZ
+CODE_SMELL
+Usquid:S2095r"-Close this "ResultSet" in a "finally" clause.(¾¿½ãHÇRBLOCKERZBUG
+e
+squid:S106>"9Replace this use of System.out or System.err by a logger.(‡ğí”HÎRMAJORZ
+CODE_SMELL
+Rsquid:S2068<" Remove this hard-coded password.(Õ‚Ï–HÄRBLOCKERZVULNERABILITY
+e
+squid:S106e"9Replace this use of System.out or System.err by a logger.(©Æ‚´HĞRMAJORZ
+CODE_SMELL
+Ssquid:S1148i"#Use a logger to log this exception.(Ç’ÇêHÖRMINORZVULNERABILITY
+j
+squid:S106:"9Replace this use of System.out or System.err by a logger.(áèó­úÿÿÿÿHÍRMAJORZ
+CODE_SMELL
+Xsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÔRMINORZVULNERABILITY
+Rsquid:S20684" Remove this hard-coded password.(Õ‚Ï–HÃRBLOCKERZVULNERABILITY
+Xsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÕRMINORZVULNERABILITY
+rsquid:S2259q"GA "NullPointerException" could be thrown; "connction" is nullable here.(“ÿ­şÿÿÿÿHÓRMAJORZBUG
+ƒsquid:S1149\"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ï‹¯ØHØRMAJORZ
+CODE_SMELL

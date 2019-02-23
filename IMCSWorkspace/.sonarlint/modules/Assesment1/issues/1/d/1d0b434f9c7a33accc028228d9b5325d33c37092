@@ -1,0 +1,22 @@
+
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(ó„õ8áÆôø+Hš%RMAJORZ
+CODE_SMELL
+gsquid:S1172".Remove this unused method parameter "vehicle".(Äâ•Íûÿÿÿÿ8°µ¢ø+Hœ%RMAJORZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Äºîø+Hö$RMINORZVULNERABILITY
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(åı°8°µ¢ø+H›%RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ©±Œ8İ”çø+Hã$RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(†í çıÿÿÿÿ8İ”çø+H™%RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÜÇáÂüÿÿÿÿ8ğá¤ø+H%RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Èëªªøÿÿÿÿ8Àóäø+H˜%RMAJORZ
+CODE_SMELL

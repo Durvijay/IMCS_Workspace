@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="trng.imcs.jaxb.Customer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.serviceImpl.CustomerDaoImpl"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.service.AddressDao"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.serviceImpl.AddressDaoImpl"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.service.PaymentDao"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.serviceImpl.PaymentDaoImpl"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.bean.Address"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.bean.Payment"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.service.CustomerService"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.service.CustomerDao"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.bean.Customer"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.util.HibernateUtils"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.Assignment4.serviceImpl.CustomerServiceImpl"/>
+<fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
+<fullyQualifiedTypeName name="org.hibernate.query.Query"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaUpdate"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.assignment4.service.CustomerDao"/>
+<fullyQualifiedTypeName name="com.imcs.soap.stub.OrderLibrary"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.imcs.soap.stub.Customer"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="com.imcs.soap.stub.Address"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.assignment4.bean.Address"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.assignment4.bean.Payment"/>
+<fullyQualifiedTypeName name="com.imcs.soap.stub.Payment"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.assignment4.bean.Customer"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.assignment4.util.CustomerUtil"/>
+<fullyQualifiedTypeName name="com.imcs.soap.stub.CreateCustomerResponse"/>
+<fullyQualifiedTypeName name="trng.imcs.hibernate.assignment4.serviceImpl.CustomerServiceImpl"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="test"/>
+</qualifiedTypeNameHistroy>

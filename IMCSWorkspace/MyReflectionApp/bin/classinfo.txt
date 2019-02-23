@@ -1,0 +1,3 @@
+class=trng.reflection.Employee
+fields=empNo##123;empName##Raju;salary##1000.00
+methods=setEmpNo##java.lang.Long#1234;setEmpName##java.lang.String#Raj;setSalary##java.lang.Float#1000.00

@@ -1,0 +1,35 @@
+
+€squid:S3008"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦•ÂÈüÿÿÿÿH’RMINORZ
+CODE_SMELL
+†squid:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ð«°H“RMINORZ
+CODE_SMELL
+†squid:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á¹ÙÏH”RMINORZ
+CODE_SMELL
+†squid:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(¯ð«°H•RMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åÊñËúÿÿÿÿH–RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(±à×H—RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(„—€H˜RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(ÙÝÍÕÿÿÿÿÿH™RMAJORZ
+CODE_SMELL
+j
+squid:S106,"9Replace this use of System.out or System.err by a logger.(É¦ÉËøÿÿÿÿHšRMAJORZ
+CODE_SMELL
+d
+squid:S106."9Replace this use of System.out or System.err by a logger.(•î»eH›RMAJORZ
+CODE_SMELL
+d
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ÿ¦¬[HœRMAJORZ
+CODE_SMELL
+d
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ý˜BHRMAJORZ
+CODE_SMELL
+j
+squid:S106G"9Replace this use of System.out or System.err by a logger.(¢ÈÖ²úÿÿÿÿHžRMAJORZ
+CODE_SMELL
+d
+squid:S106J"9Replace this use of System.out or System.err by a logger.(•î»eHŸRMAJORZ
+CODE_SMELL

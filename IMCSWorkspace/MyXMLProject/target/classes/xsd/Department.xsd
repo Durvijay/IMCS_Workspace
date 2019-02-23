@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://trng.imcs.xsd/Department" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://trng.imcs.xsd/Department">
+
+    <complexType name="Department">
+    	<sequence>
+    		<element name="deprtNo" type="string"></element>
+    		<element name="name" type="string"></element>
+    		<element name="location" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="Department" type="tns:Department"></element>
+</schema>

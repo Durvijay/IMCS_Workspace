@@ -1,0 +1,13 @@
+
+Šsquid:UselessImportCheck"KRemove this unused import 'org.springframework.web.servlet.LocaleResolver'.(¿ë¿úÿÿÿÿH»!RMINORZ
+CODE_SMELL
+Vsquid:S1452"&Remove usage of generic wildcard type.(ûÙÍ™H¸!RCRITICALZ
+CODE_SMELL
+…squid:UselessImportCheck"FRemove this unused import 'org.springframework.context.MessageSource'.(©Î„ëùÿÿÿÿH¼!RMINORZ
+CODE_SMELL
+[squid:S1452,"&Remove usage of generic wildcard type.(œÿ»ĞûÿÿÿÿHº!RCRITICALZ
+CODE_SMELL
+Vsquid:S1452'"&Remove usage of generic wildcard type.(ÕÁ°ìH¹!RCRITICALZ
+CODE_SMELL
+[squid:S1452"&Remove usage of generic wildcard type.(¡ä¯üÿÿÿÿH·!RCRITICALZ
+CODE_SMELL

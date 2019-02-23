@@ -1,0 +1,3 @@
+class=trng.reflection.Book
+methods=setBookNo##java.lang.Integer#200;setBookName##java.lang.String#Java;setAuthor##java.lang.String#Samir
+fields=

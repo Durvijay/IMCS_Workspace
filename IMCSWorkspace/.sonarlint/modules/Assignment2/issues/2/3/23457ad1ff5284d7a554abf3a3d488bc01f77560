@@ -1,0 +1,7 @@
+
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(— Ô¥şÿÿÿÿHÎRMINORZ
+CODE_SMELL
+_squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8êï„—÷+H²RMINORZVULNERABILITY
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŒÃÔÀ8Âª¡õ+HÏRMAJORZ
+CODE_SMELL

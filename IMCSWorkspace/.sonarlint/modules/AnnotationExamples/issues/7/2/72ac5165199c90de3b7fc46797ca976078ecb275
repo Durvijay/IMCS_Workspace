@@ -1,0 +1,8 @@
+
+osquid:S2583"DChange this condition so that it does not always evaluate to "false"(òıÀıÿÿÿÿH—#RMAJORZBUG
+dsquid:S2589"7Remove this expression which always evaluates to "true"(è¦È„H˜#RMAJORZ
+CODE_SMELL
+tsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ÒšôßH™#RMAJORZ
+CODE_SMELL
+ysquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ê·¿ÆşÿÿÿÿHš#RMAJORZ
+CODE_SMELL

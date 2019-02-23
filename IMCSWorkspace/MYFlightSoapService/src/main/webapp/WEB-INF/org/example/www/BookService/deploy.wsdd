@@ -1,0 +1,65 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from BookService WSDL service -->
+
+  <service name="BookServiceSOAP" provider="java:RPC" style="document" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://www.example.org/BookService/"/>
+      <parameter name="wsdlServiceElement" value="BookService"/>
+      <parameter name="schemaQualified" value="http://www.trng.imcs/Book,http://www.trng.imcs/GetBooksRequest,http://www.trng.imcs/GetBooksResponse"/>
+      <parameter name="wsdlServicePort" value="BookServiceSOAP"/>
+      <parameter name="className" value="org.example.www.BookService.BookServiceSOAPSkeleton"/>
+      <parameter name="wsdlPortType" value="BookService"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <parameter name="allowedMethods" value="*"/>
+
+      <typeMapping
+        xmlns:ns="http://www.trng.imcs/GetBooksRequest"
+        qname="ns:GetBooksRequestType"
+        type="java:imcs.trng.www.GetBooksRequest.GetBooksRequestType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.trng.imcs/Book"
+        qname="ns:AuthorType"
+        type="java:imcs.trng.www.Book.AuthorType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.trng.imcs/Book"
+        qname="ns:BookType"
+        type="java:imcs.trng.www.Book.BookType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <arrayMapping
+        xmlns:ns="http://www.trng.imcs/GetBooksResponse"
+        qname="ns:GetBooksResponseType"
+        type="java:imcs.trng.www.Book.BookType[]"
+        innerType="cmp-ns:BookType" xmlns:cmp-ns="http://www.trng.imcs/Book"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.trng.imcs/Book"
+        qname="ns:>BookType>price"
+        type="java:float"
+        serializer="org.apache.axis.encoding.ser.SimpleSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.SimpleDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>

@@ -1,0 +1,14 @@
+
+Wsquid:S00108=")Either remove or fill this block of code.(®ËúÃH«#RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ûü¾ÊÿÿÿÿÿH¬#RMAJORZ
+CODE_SMELL
+Wsquid:S00108")Either remove or fill this block of code.(Úîø›H­#RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.(–žœÉüÿÿÿÿH®#RMAJORZ
+CODE_SMELL
+ssquid:S1075"ARefactor your code to get this URI from a customizable parameter.(­¤î¼ýÿÿÿÿH¯#RMINORZ
+CODE_SMELL
+\squid:S2095!"4Close this "FileOutputStream" in a "finally" clause.(ŠÀø¯H°#RBLOCKERZBUG
+osquid:UnusedPrivateMethod"5Remove this unused private "displayEmployees" method.(ùœ–H±#RMAJORZ
+CODE_SMELL

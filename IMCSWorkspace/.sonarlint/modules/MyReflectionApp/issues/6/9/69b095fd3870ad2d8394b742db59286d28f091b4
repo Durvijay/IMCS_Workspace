@@ -1,0 +1,56 @@
+
+¿%squid:RedundantThrowsDeclarationCheck"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(“Ç•H‚#RMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(êàÀÖýÿÿÿÿHƒ#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÝÖµH„#RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(®Öô‰üÿÿÿÿH…#RMAJORZ
+CODE_SMELL
+j
+squid:S106 "9Replace this use of System.out or System.err by a logger.(†ýò÷øÿÿÿÿH†#RMAJORZ
+CODE_SMELL
+e
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ŒàêãH‡#RMAJORZ
+CODE_SMELL
+e
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ú÷÷ËHˆ#RMAJORZ
+CODE_SMELL
+e
+squid:S106#"9Replace this use of System.out or System.err by a logger.(÷„Õ©H‰#RMAJORZ
+CODE_SMELL
+e
+squid:S106$"9Replace this use of System.out or System.err by a logger.(õì»œHŠ#RMAJORZ
+CODE_SMELL
+j
+squid:S106%"9Replace this use of System.out or System.err by a logger.(å±ý±øÿÿÿÿH‹#RMAJORZ
+CODE_SMELL
+e
+squid:S106&"9Replace this use of System.out or System.err by a logger.(»íõØHŒ#RMAJORZ
+CODE_SMELL
+e
+squid:S106'"9Replace this use of System.out or System.err by a logger.(µÑÉÍH#RMAJORZ
+CODE_SMELL
+e
+squid:S106("9Replace this use of System.out or System.err by a logger.(µ²¼HŽ#RMAJORZ
+CODE_SMELL
+j
+squid:S106)"9Replace this use of System.out or System.err by a logger.(—ˆ¬½ÿÿÿÿÿH#RMAJORZ
+CODE_SMELL
+j
+squid:S106*"9Replace this use of System.out or System.err by a logger.(–ŸšëþÿÿÿÿH#RMAJORZ
+CODE_SMELL
+e
+squid:S106,"9Replace this use of System.out or System.err by a logger.(éÉˆ­H‘#RMAJORZ
+CODE_SMELL
+e
+squid:S106-"9Replace this use of System.out or System.err by a logger.(¥ÜÔ£H’#RMAJORZ
+CODE_SMELL
+e
+squid:S1061"9Replace this use of System.out or System.err by a logger.(»Ú‹öH“#RMAJORZ
+CODE_SMELL
+j
+squid:S1068"9Replace this use of System.out or System.err by a logger.(‡¼¯õùÿÿÿÿH”#RMAJORZ
+CODE_SMELL

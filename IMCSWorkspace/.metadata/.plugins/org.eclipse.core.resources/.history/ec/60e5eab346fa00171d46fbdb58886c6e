@@ -1,0 +1,17 @@
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public boolean checkPalindrome(String str,int start,int end){
+		while(start>=0 && end<str.length() && str.charAt(start)==str.charAt(end)){
+			
+		}
+		
+		return true;
+	}
+
+}

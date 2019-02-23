@@ -1,0 +1,5 @@
+
+™squid:UselessImportCheck"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8ž˜›£ÿ+H‡4RMINORZ
+CODE_SMELL
+Šsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Œ²÷ÐùÿÿÿÿHˆ4RMINORZ
+CODE_SMELL

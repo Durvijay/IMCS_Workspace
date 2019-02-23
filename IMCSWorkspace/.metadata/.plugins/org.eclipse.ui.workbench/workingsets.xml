@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1516411146748_1" label="crescendo-magnolia-challenge" name="crescendo-magnolia-challenge">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/crescendo-magnolia-challenge" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/crescendo-magnolia-challenge-webapp" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/crescendo-magnolia-challenge-core" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1510018866324_0" label="Window Working Set" name="Aggregate for window 1510018866323"/>
+</workingSetManager>

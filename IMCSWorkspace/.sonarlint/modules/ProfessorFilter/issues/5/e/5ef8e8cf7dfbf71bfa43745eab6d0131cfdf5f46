@@ -1,0 +1,11 @@
+
+^squid:S1481)"1Remove this unused "httpResponse" local variable.(ÏšÄëHö3RMINORZ
+CODE_SMELL
+csquid:S1135C"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH÷3RINFOZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHø3RINFOZ
+CODE_SMELL
+msquid:S1854)"@Remove this useless assignment to local variable "httpResponse".(ÏšÄëHù3RMAJORZ
+CODE_SMELL
+csquid:S1135 "2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHú3RINFOZ
+CODE_SMELL

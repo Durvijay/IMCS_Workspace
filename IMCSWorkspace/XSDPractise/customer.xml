@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer xmlns="http://imcs.customer.xsd/Customer">
+    <customerId>1</customerId>
+    <name>Sam</name>
+    <dataOfBirth>2017-11-06-06:00</dataOfBirth>
+    <anualSalary>0.05</anualSalary>
+    <address>
+        <streetNo>5801</streetNo>
+        <streetName>5801 preston oaks</streetName>
+        <zipCode>75254</zipCode>
+    </address>
+    <payment>
+        <cardNumber>123456789</cardNumber>
+        <cardName>Sammarth</cardName>
+        <cardType>CARDTYPE1</cardType>
+    </payment>
+</customer>

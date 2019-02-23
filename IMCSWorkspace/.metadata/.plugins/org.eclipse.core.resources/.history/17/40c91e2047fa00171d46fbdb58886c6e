@@ -1,0 +1,19 @@
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+
+	}
+
+	public boolean checkPalindrome(String str, int start, int end) {
+		while (start >= 0 && end < str.length() && str.charAt(start) == str.charAt(end)) {
+			start--;
+			end++;
+		}
+		if (start == -1 && end == str.length())
+			return true;
+		else
+			return false;
+	}
+
+}

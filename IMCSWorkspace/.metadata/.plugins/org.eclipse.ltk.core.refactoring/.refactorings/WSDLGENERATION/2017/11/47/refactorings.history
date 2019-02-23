@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;xsd&apos;&#x0D;&#x0A;- Original project: &apos;WSDLGENERATION&apos;&#x0D;&#x0A;- Destination element: &apos;xsd&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     orderLibrary.xsd&#x0D;&#x0A;     Flight.xsd&#x0D;&#x0A;     FlightOperations.xsd&#x0D;&#x0A;- Update references to refactored element" description="Move files" element1="src/main/java/orderLibrary.xsd" element2="src/main/java/Flight.xsd" element3="src/main/java/FlightOperations.xsd" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1511633684184" target="src/main/resources/xsd" units="0" version="1.0"/>
+</session>

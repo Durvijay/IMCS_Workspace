@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://trng.imcs.xsd/employee"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://trng.imcs.xsd/employee" xmlns:pref="http://trng.imcs.xsd/Department">
+
+	<import schemaLocation="Department.xsd" namespace="http://trng.imcs.xsd/Department"></import>
+	<complexType name="Employee">
+		<sequence>
+			<element name="empId" type="int" maxOccurs="1"
+				minOccurs="1">
+			</element>
+			<element name="name" type="string"></element>
+			<element name="salary">
+				<simpleType>
+					<restriction base="float">
+						<minInclusive value="5000"></minInclusive>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="joinDate" type="date" maxOccurs="1"
+				minOccurs="0">
+			</element>
+			<element name="phoneNumbers" type="string"
+				maxOccurs="unbounded" minOccurs="1">
+			</element>
+			<element name="address" type="tns:Address"></element>
+			<element name="empType">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="Senior"></enumeration>
+						<enumeration value="Junior"></enumeration>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="department" type="pref:Department"></element>
+		</sequence>
+	</complexType>
+
+	<complexType name="Address">
+		<sequence>
+			<element name="streetNo" type="string"></element>
+			<element name="streetName" type="string"></element>
+			<element name="zipCode" type="string"></element>
+		</sequence>
+	</complexType>
+
+	<element name="Employee" type="tns:Employee"></element>
+</schema>

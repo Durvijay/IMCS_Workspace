@@ -1,0 +1,7 @@
+
+Vsquid:S2189%""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8óŠ¶—÷+HÜ4RBLOCKERZBUG
+_squid:S1148a"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8°¬œ¥õ+HÝ4RMINORZVULNERABILITY
+hsquid:S2864k"4Iterate over the "entrySet" instead of the "keySet".(²ó¶‰8™ó¥—÷+HÞ4RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.Hß4RMINORZ
+CODE_SMELL

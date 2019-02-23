@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- web service deployment descriptor, which is also known as JAX-WS RI deployment descriptor  -->
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+	version="2.0">
+	<endpoint name="FlightsService" implementation="trng.imcs.soap.stub.impl.FlightServiceImpl"
+		url-pattern="/flightsService" />
+</endpoints>

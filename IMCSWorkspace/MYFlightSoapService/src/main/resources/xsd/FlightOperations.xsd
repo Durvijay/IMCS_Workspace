@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://trng.imcs.soap/FlightOperations" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://trng.imcs.soap/FlightOperations" xmlns:Q1="http://trng.imcs.soap/Flight">
+
+    <import schemaLocation="Flight.xsd" namespace="http://trng.imcs.soap/Flight"></import>
+    <complexType name="GetFlightsRequest">
+    	<sequence>
+    		<element name="origin" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="destination" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="departureDate" type="date"></element>
+    		<element name="arrivalDate" type="date"></element>
+    		<element name="tripMode">
+    			<simpleType>
+    				<restriction base="string">
+    					<enumeration value="OneWay"></enumeration>
+    					<enumeration value="Roundtrip"></enumeration>
+    					<enumeration value="Multicity"></enumeration>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		
+    	</sequence>
+    </complexType>
+    
+    <complexType name="BookFlightRequest">
+    	<sequence>
+    		<element name="flightNo" type="string"></element>
+    		<element name="departureDate" type="string"></element>
+    		<element name="arrivalDate" type="string"></element>
+    		<element name="passengers" type="string"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="GetFlightsResponse">
+    	<sequence>
+    		<element name="flights" type="Q1:Flight" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="BookFlightResponse">
+    	<sequence>
+    		<element name="status" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="BookFlightRequest" type="tns:BookFlightRequest"></element>
+
+    <element name="BookFlightResponse" type="tns:BookFlightResponse"></element>
+
+    <element name="GetFlightsRequest" type="tns:GetFlightsRequest"></element>
+
+    <element name="GetFlightsResponse" type="tns:GetFlightsResponse"></element>
+</schema>

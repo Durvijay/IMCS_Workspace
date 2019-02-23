@@ -1,0 +1,44 @@
+
+csquid:S11352"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH„7RINFOZ
+CODE_SMELL
+asquid:S14819"/Remove this unused "teamUpdate" local variable.(Ôîç‹úÿÿÿÿH†7RMINORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHƒ7RINFOZ
+CODE_SMELL
+}squid:CommentedOutCodeLinei"<This block of commented-out lines of code should be removed.(·±“âÿÿÿÿÿHÿ6RMAJORZ
+CODE_SMELL
+squid:S1192."JDefine a constant instead of duplicating this literal "IS_ACTIVE" 3 times.(³ğîİşÿÿÿÿHó6RCRITICALZ
+CODE_SMELL
+€squid:S1192'"PDefine a constant instead of duplicating this literal "SELECT * FROM `" 3 times.(Íê¯Hô6RCRITICALZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç–„ĞüÿÿÿÿH€7RMAJORZ
+CODE_SMELL
+bsquid:S2095h"5Close this "PreparedStatement" in a "finally" clause.(ØÁÑÎüÿÿÿÿHö6RBLOCKERZBUG
+csquid:S1135s"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH…7RINFOZ
+CODE_SMELL
+Vsquid:S2095?".Close this "Connection" in a "finally" clause.(˜²Î‡H÷6RBLOCKERZBUG
+Xsquid:S1148]"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH7RMINORZVULNERABILITY
+Xsquid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‹7RMINORZVULNERABILITY
+Xsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH‰7RMINORZVULNERABILITY
+psquid:S1854C">Remove this useless assignment to local variable "teamUpdate".(ó‚»üÿÿÿÿH‡7RMAJORZ
+CODE_SMELL
+]squid:S2095"5Close this "PreparedStatement" in a "finally" clause.(ÒĞáHú6RBLOCKERZBUG
+„squid:S2077A"RUse a variable binding mechanism to construct this query instead of concatenation.(¶äáãHò6RBLOCKERZVULNERABILITY
+Vsquid:S2095".Close this "Connection" in a "finally" clause.(à¿ĞÚHù6RBLOCKERZBUG
+]squid:S2095'"5Close this "PreparedStatement" in a "finally" clause.(Íê¯Hø6RBLOCKERZBUG
+e
+squid:S106>"9Replace this use of System.out or System.err by a logger.(‰·óH7RMAJORZ
+CODE_SMELL
+e
+squid:S106F"9Replace this use of System.out or System.err by a logger.(ü®é–H‚7RMAJORZ
+CODE_SMELL
+]squid:S2095@"5Close this "PreparedStatement" in a "finally" clause.(ÿŠÿ™Hõ6RBLOCKERZBUG
+Vsquid:S2095M".Close this "Connection" in a "finally" clause.(˜²Î‡Hı6RBLOCKERZBUG
+Xsquid:S1148t"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHŒ7RMINORZVULNERABILITY
+Vsquid:S2095#".Close this "Connection" in a "finally" clause.(˜²Î‡Hş6RBLOCKERZBUG
+Xsquid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHŠ7RMINORZVULNERABILITY
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¥òºóHˆ7RMINORZ
+CODE_SMELL
+Vsquid:S2095d".Close this "Connection" in a "finally" clause.(˜²Î‡Hü6RBLOCKERZBUG
+]squid:S2095Q"5Close this "PreparedStatement" in a "finally" clause.(ÆƒøšHû6RBLOCKERZBUG

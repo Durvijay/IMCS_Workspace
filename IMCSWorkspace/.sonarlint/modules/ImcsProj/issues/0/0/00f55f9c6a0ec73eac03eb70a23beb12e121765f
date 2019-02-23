@@ -1,0 +1,16 @@
+
+]squid:S2160"+Override the "equals" method in this class.(ëßç§üÿÿÿÿHÐ#RMINORZ
+CODE_SMELL
+wsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦ºòHÑ#RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿˜¢HÒ#RMAJORZ
+CODE_SMELL
+e
+squid:S106 "9Replace this use of System.out or System.err by a logger.(­ÂàÌHÓ#RMAJORZ
+CODE_SMELL
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(æ¤‹¸ýÿÿÿÿHÔ#RMAJORZ
+CODE_SMELL
+lsquid:S1161":Add the "@Override" annotation above this method signature(ãëš²ÿÿÿÿÿHÕ#RMAJORZ
+CODE_SMELL

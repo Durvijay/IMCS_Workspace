@@ -1,0 +1,32 @@
+1510329900969	Delete element
+1510329955694	Rename package 'dao'
+1510329965506	Rename package 'trng.imcs.hibernate.Assignment4.dao'
+1510329977890	Move compilation units
+1510329993394	Copy package
+1510330001470	Move compilation unit
+1510330016063	Delete elements
+1510330027194	Copy package
+1510330035127	Delete elements
+1510330043644	Move compilation unit
+1510330116488	Rename type 'PaymentMethod'
+1510331474645	Delete element
+1510331482219	Move compilation unit
+1510331825935	Delete element
+1510335335337	Rename local variable 'customer'
+1510430814384	Move compilation units
+1510430863139	Move compilation units
+1510430882417	Move compilation units
+1510430901889	Delete element
+1510430926097	Move compilation unit
+1510430938047	Move compilation unit
+1510431686931	Rename method 'customerOptions'
+1510431696278	Delete element
+1510432259045	Delete element
+1510432265939	Move compilation unit
+1510432273995	Rename type 'Operations'
+1510432786745	Rename package 'trng.imcs.hibernate.Assignment4.serviceImpl'
+1510432865687	Rename package 'trng.imcs.hibernate.assignment4.serviceImpl.ds'
+1510432985381	Delete element
+1510432988576	Delete element
+1510433749079	Rename local variable 'customer'
+1510434816444	Rename method 'getPaymentMethod'

@@ -1,0 +1,15 @@
+
+Msquid:S2885" Make "sdf" an instance variable.(‘ä²¡8ü¿™÷+HêRMAJORZBUG
+q
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ü¿™÷+HëRMAJORZ
+CODE_SMELL
+q
+squid:S1060"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿ8ü¿™÷+HìRMAJORZ
+CODE_SMELL
+q
+squid:S1064"9Replace this use of System.out or System.err by a logger.(õ¿ˆ‹ÿÿÿÿÿ8ü¿™÷+HíRMAJORZ
+CODE_SMELL
+nsquid:S1118":Add a private constructor to hide the implicit public one.(µ²¤‹8ü¿™÷+HîRMAJORZ
+CODE_SMELL
+ysquid:UselessImportCheck"3Remove this unused import 'com.imcs.beans.Address'.(´ÆÛ™úÿÿÿÿ8ü¿™÷+HïRMINORZ
+CODE_SMELL

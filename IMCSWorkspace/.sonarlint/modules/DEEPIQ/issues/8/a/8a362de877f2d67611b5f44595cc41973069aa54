@@ -1,0 +1,14 @@
+
+usquid:S11260"AReplace this if-then-else statement by a single return statement.(äá…Ø8Ï—à,H¥5RMINORZ
+CODE_SMELL
+tsquid:S1226."@Introduce a new variable instead of reusing the parameter "end".(Ó‹˜à8Ï—à,H§5RMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H¢5RMINORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰’şv8¤­­à,H®5RMAJORZ
+CODE_SMELL
+{squid:S1226-"BIntroduce a new variable instead of reusing the parameter "start".(‚¿Âùÿÿÿÿ8Ï—à,H¦5RMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÆÏŞ…8Æ¢à,Hª5RMAJORZ
+CODE_SMELL

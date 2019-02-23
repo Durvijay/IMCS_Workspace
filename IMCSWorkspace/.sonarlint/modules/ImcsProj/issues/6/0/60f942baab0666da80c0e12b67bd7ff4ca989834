@@ -1,0 +1,40 @@
+
+jsquid:S1197N"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿH×#RMINORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(öÀÃHØ#RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(‰Ò»ÄşÿÿÿÿHÙ#RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤¶›îÿÿÿÿÿHÚ#RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ë÷‹ÛÿÿÿÿÿHÛ#RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦¨Ô¼ûÿÿÿÿHÜ#RMAJORZ
+CODE_SMELL
+e
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ô·ïäHİ#RMAJORZ
+CODE_SMELL
+e
+squid:S1061"9Replace this use of System.out or System.err by a logger.(Ë¶êHŞ#RMAJORZ
+CODE_SMELL
+j
+squid:S1065"9Replace this use of System.out or System.err by a logger.(˜éı±üÿÿÿÿHß#RMAJORZ
+CODE_SMELL
+j
+squid:S1066"9Replace this use of System.out or System.err by a logger.(âöÏ±ÿÿÿÿÿHà#RMAJORZ
+CODE_SMELL
+e
+squid:S106E"9Replace this use of System.out or System.err by a logger.(¿˜¢Há#RMAJORZ
+CODE_SMELL
+d
+squid:S106g"9Replace this use of System.out or System.err by a logger.(°ëıaHâ#RMAJORZ
+CODE_SMELL
+e
+squid:S106r"9Replace this use of System.out or System.err by a logger.(‹À¡‰Hã#RMAJORZ
+CODE_SMELL
+j
+squid:S106{"9Replace this use of System.out or System.err by a logger.(ıĞ±ÕùÿÿÿÿHä#RMAJORZ
+CODE_SMELL

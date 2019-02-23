@@ -1,0 +1,23 @@
+
+µ%squid:RedundantThrowsDeclarationCheck	"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Á¯¦şHø#RMINORZ
+CODE_SMELL
+[squid:S2095*".Close this "Connection" in a "finally" clause.(ğ«·şÿÿÿÿHù#RBLOCKERZBUG
+]squid:S2095."5Close this "CallableStatement" in a "finally" clause.(ÆÔ†ÕHú#RBLOCKERZBUG
+bsquid:S2095"5Close this "CallableStatement" in a "finally" clause.(Ç”ÿÂûÿÿÿÿHû#RBLOCKERZBUG
+[squid:S2095".Close this "Connection" in a "finally" clause.(ğ«·şÿÿÿÿHü#RBLOCKERZBUG
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ùÌÕÿHı#RMAJORZ
+CODE_SMELL
+j
+squid:S106""9Replace this use of System.out or System.err by a logger.(Í‰ĞÙøÿÿÿÿHş#RMAJORZ
+CODE_SMELL
+e
+squid:S106?"9Replace this use of System.out or System.err by a logger.(¼®´·Hÿ#RMAJORZ
+CODE_SMELL
+csquid:S1135$"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH€$RINFOZ
+CODE_SMELL
+csquid:S1135C"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH$RINFOZ
+CODE_SMELL
+jsquid:CallToDeprecatedMethod",Remove this use of "Date"; it is deprecated.(ş”Œ¶H‚$RMINORZ
+CODE_SMELL
+Xsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHƒ$RMINORZVULNERABILITY
+Xsquid:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH„$RMINORZVULNERABILITY

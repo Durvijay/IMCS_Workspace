@@ -1,0 +1,19 @@
+
+wsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶ý‡tH‰6RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(±ã­àúÿÿÿÿHŠ6RMAJORZ
+CODE_SMELL
+wsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(¶ý‡tH‹6RMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(±ã­àúÿÿÿÿHŒ6RMAJORZ
+CODE_SMELL
+[squid:S1481")Remove this unused "team" local variable.(»•ÿÒýÿÿÿÿH6RMINORZ
+CODE_SMELL
+[squid:S14814")Remove this unused "team" local variable.(£ á¨øÿÿÿÿHŽ6RMINORZ
+CODE_SMELL
+jsquid:S1854"8Remove this useless assignment to local variable "team".(»•ÿÒýÿÿÿÿH6RMAJORZ
+CODE_SMELL
+jsquid:S18544"8Remove this useless assignment to local variable "team".(£ á¨øÿÿÿÿH6RMAJORZ
+CODE_SMELL
+psquid:UselessImportCheck"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—H‘6RMINORZ
+CODE_SMELL

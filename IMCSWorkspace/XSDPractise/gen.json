@@ -1,0 +1,18 @@
+{
+  "customerId" : 1,
+  "name" : "Sam",
+  "dataOfBirth" : 1509948000000,
+  "anualSalary" : 0.05,
+  "address" : [ {
+    "streetNo" : "5801",
+    "streetName" : "5801 preston oaks",
+    "zipCode" : "75254"
+  } ],
+  "payment" : [ {
+    "cardNumber" : "123456789",
+    "cardName" : "Sammarth",
+    "dateFrom" : null,
+    "dateType" : null,
+    "cardType" : "CARDTYPE1"
+  } ]
+}

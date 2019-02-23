@@ -1,0 +1,13 @@
+
+fsquid:S2696""6Make the enclosing method "static" or remove this set.(Ê„À¤Hï#RCRITICALZ
+CODE_SMELL
+¤"squid:ClassVariableVisibilityCheck"QMake dbcon a static final constant or non-public and provide accessors if needed.(¤úí±üÿÿÿÿ8ÙÔ·¨õ+Hð#RMINORZVULNERABILITY
+Xsquid:S1148'"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHñ#RMINORZVULNERABILITY
+Xsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿHò#RMINORZVULNERABILITY
+‰squid:S1450"URemove the "dbStmt" field and declare it as a local variable in the relevant methods.(åÛÑ˜8…³–úô+Hó#RMINORZ
+CODE_SMELL
+j
+squid:S106!"9Replace this use of System.out or System.err by a logger.(þÃë¦úÿÿÿÿHô#RMAJORZ
+CODE_SMELL
+gsquid:S1444"+Make this "public static dbcon" field final(¤úí±üÿÿÿÿ8ÙÔ·¨õ+Hõ#RMINORZVULNERABILITY
+_squid:S11482"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æ…úøô+Hö#RMINORZVULNERABILITY

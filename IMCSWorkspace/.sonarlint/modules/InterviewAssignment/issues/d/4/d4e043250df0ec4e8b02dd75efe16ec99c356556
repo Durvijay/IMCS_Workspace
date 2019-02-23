@@ -1,0 +1,14 @@
+
+e
+squid:S1065"9Replace this use of System.out or System.err by a logger.(çì¹§Hé6RMAJORZ
+CODE_SMELL
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ŒòËÞHì6RMINORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHë6RINFOZ
+CODE_SMELL
+Žsquid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "team".(‡áÎŠÿÿÿÿÿHê6RMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ú×©‰ÿÿÿÿÿ8›ùû¦,Hï6RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(Á¼ »ùÿÿÿÿ8›ùû¦,Hð6RMAJORZ
+CODE_SMELL
