@@ -1,0 +1,27 @@
+package com.altimetrik.food.bean;
+
+import java.util.HashMap;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+
+
+@JsonInclude(Include.NON_NULL)
+public class Reciepe {
+	private HashMap<String, String> recipe;
+
+	public String getRecipe() {
+		return recipe;
+	}
+
+	public void setRecipe(String recipe) {
+		this.recipe = recipe;
+	}
+
+	@Override
+	public String toString() {
+		return "Reciepe [recipe=" + recipe + "]";
+	}
+	
+}

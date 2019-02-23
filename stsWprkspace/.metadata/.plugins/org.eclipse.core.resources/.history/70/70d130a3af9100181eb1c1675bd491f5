@@ -1,0 +1,5 @@
+package com.altimetrik.food.bean;
+
+public class MealInformation {
+
+}

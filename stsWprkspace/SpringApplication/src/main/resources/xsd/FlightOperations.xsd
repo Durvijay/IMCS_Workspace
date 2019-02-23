@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://com.example/FlightOperations" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://com.example/FlightOperations" xmlns:Q1="http://com.example/Flights">
+
+   
+    <complexType name="createFlightDetailsRequest">
+    	<sequence>
+    		<element name="flight" type="tns:FlightDetails"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="createFlightDetailsResponse">
+    	<sequence>
+    		<element name="flight" type="tns:FlightDetails"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="getFlightDetailsRequest">
+    	<sequence>
+    		<element name="id" type="integer"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="getFlightDetailsResponse">
+    	<sequence>
+    		<element name="flight" type="tns:FlightDetails"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="updateFlightDetailsRequest"></complexType>
+
+    <complexType name="updateFlightDetailsResponse"></complexType>
+
+    <complexType name="deleteFlightDetailsRequest">
+    	<sequence>
+    		<element name="id" type="integer"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="deleteFlightDetailsResponse"></complexType>
+
+    <element name="createFlightDetailsRequest" type="tns:createFlightDetailsRequest"></element>
+
+    <element name="createFlightDetailsResponse" type="tns:createFlightDetailsResponse"></element>
+
+    <element name="deleteFlightDetailsRequest" type="tns:deleteFlightDetailsRequest"></element>
+
+    <element name="deleteFlightDetailsResponse" type="tns:deleteFlightDetailsResponse"></element>
+
+    <element name="getFlightDetailsRequest" type="tns:getFlightDetailsRequest"></element>
+
+    <element name="getFlightDetailsResponse" type="tns:getFlightDetailsResponse"></element>
+
+    <element name="updateFlightDetailsRequest" type="tns:updateFlightDetailsRequest"></element>
+
+    <element name="updateFlightDetailsResponse" type="tns:updateFlightDetailsResponse"></element>
+
+     <complexType name="Flight">
+    	<sequence>
+    		<element name="flightId" type="integer"></element>
+    		<element name="airlineId" type="integer"></element>
+    		<element name="airlineName" type="string"></element>
+    		<element name="fromLocation" type="string"></element>
+    		<element name="toLocation" type="string"></element>
+    		<element name="departureTime" type="dateTime"></element>
+    		<element name="arrivalTime" type="dateTime"></element>
+    		<element name="duration" type="double"></element>
+    		<element name="totalSeats" type="integer"></element>
+    		<element name="flightDetails" type="tns:FlightDetails" maxOccurs="1" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="FlightDetails">
+    	<sequence>
+    		<element name="flightDetailId" type="integer"></element>
+    		<element name="flightId" type="tns:Flight" maxOccurs="1" minOccurs="1"></element>
+    		<element name="flightDepartureDate" type="dateTime"></element>
+    		<element name="price" type="double"></element>
+    		<element name="availableSeats" type="integer"></element>
+    	</sequence>
+    </complexType>
+</schema>

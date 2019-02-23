@@ -1,0 +1,22 @@
+1511849567460	Rename type 'Product'
+1511849606498	Rename type 'Orders'
+1511889025734	Rename package 'com.example.demo'
+1511919183622	Delete element
+1511996004915	Move compilation unit
+1511996024782	Rename package 'com.productservices.service'
+1511996033356	Move compilation units
+1511996050644	Rename package 'com.productservices.serviceImpl'
+1511996059305	Rename type 'OrderService'
+1511996175016	Rename type 'Orders'
+1511996275130	Rename type 'Products'
+1511999663597	Delete element
+1512001299395	Delete element
+1512005075852	Delete element
+1512006960289	Delete elements
+1512007095630	Delete element
+1512007285521	Delete element
+1512007452790	Delete element
+1512007525950	Delete elements
+1512007594336	Delete elements
+1512007713220	Delete element
+1512061796524	Rename local variable 'product'

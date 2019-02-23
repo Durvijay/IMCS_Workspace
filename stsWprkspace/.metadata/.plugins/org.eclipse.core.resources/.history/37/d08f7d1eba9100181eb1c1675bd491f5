@@ -1,0 +1,10 @@
+package com.altimetrik.food.bean;
+
+public class Ingredient {
+	private String query;
+	private String timezone = "America/Chicago";
+	private boolean line_delimited = false;
+	private boolean use_raw_foods = false;
+	private String use_branded_foods = false}
+
+}

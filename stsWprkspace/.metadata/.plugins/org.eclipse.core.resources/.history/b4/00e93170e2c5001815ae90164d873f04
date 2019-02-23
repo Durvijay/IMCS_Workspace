@@ -1,0 +1,40 @@
+package com.springboot.controller;
+
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Controller;
+import org.springframework.util.MultiValueMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@RequestMapping(value="/customer")
+public class CustomerControler {
+	
+
+	@RequestMapping(value="/home", method = RequestMethod.GET)
+	public String homePage() {
+		return "home";
+	}
+	@RequestMapping(value="/login", method = RequestMethod.POST, consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
+	public String login(MultiValueMap paramMap) {
+		System.out.println(paramMap);
+		return "home";
+	}
+	
+
+	@RequestMapping(value="/settings", method = RequestMethod.GET)
+	public ModelAndView findCustomerResult() {		
+		ModelAndView modelAndView=new ModelAndView("Settings");		
+		return modelAndView;
+	}
+	
+	@RequestMapping(value="/apps", method = RequestMethod.GET)
+	public ModelAndView displayCreateCustomer() {
+		ModelAndView modelAndView=new ModelAndView("Apps");
+		return modelAndView;
+	}
+	
+	
+	
+}

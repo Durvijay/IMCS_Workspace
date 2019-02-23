@@ -1,0 +1,7 @@
+package com.altimetrik.food.bean;
+
+import java.util.HashMap;
+
+public class MealInformation {
+	private HashMap<String, String> recipe;
+}

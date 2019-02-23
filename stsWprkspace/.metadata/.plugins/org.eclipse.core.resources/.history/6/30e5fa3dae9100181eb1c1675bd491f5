@@ -1,0 +1,20 @@
+package com.altimetrik.food.bean;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+
+
+@JsonInclude(Include.NON_NULL)
+public class Reciepe {
+	private String recipe;
+
+	public String getRecipe() {
+		return recipe;
+	}
+
+	public void setRecipe(String recipe) {
+		this.recipe = recipe;
+	}
+	
+}

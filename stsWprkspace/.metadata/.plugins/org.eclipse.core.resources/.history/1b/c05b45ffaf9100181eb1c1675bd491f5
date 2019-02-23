@@ -1,0 +1,26 @@
+package com.altimetrik.food.bean;
+
+import java.util.HashMap;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+
+
+@JsonInclude(Include.NON_NULL)
+public class Reciepe {
+	
+	private String q;
+	private List<MealInformation> hits;
+	
+
+	public String getQ() {
+		return q;
+	}
+
+	public void setQ(String q) {
+		this.q = q;
+	}
+	
+}

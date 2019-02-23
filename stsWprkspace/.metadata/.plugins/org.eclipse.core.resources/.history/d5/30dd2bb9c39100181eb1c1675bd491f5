@@ -1,0 +1,29 @@
+package com.altimetrik.food.bean;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
+@JsonInclude(Include.NON_NULL)
+public class Calories {
+	
+	private String nf_calories;
+	private String nf_total_fat;
+	private String nf_saturated_fat;
+	private String nf_cholesterol;
+	private String nf_sodium;
+	private String nf_total_carbohydrate;
+	private String nf_dietary_fiber;
+	private String nf_sugars;
+	private String nf_protein;
+	private String nf_potassium;
+	private String nf_p;
+
+	
+}

@@ -1,0 +1,22 @@
+package com.altimetrik.food.bean;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class Ingredient {
+	public Ingredient(String ingredient) {
+		this.query = ingredient;
+		this.timezone = "America/Chicago";
+		this.line_delimited = false;
+		this.use_raw_foods = false;
+		this.use_branded_foods = false;
+	}
+	private String query;
+	private String timezone;
+	private boolean line_delimited;
+	private boolean use_raw_foods;
+	private boolean use_branded_foods;
+
+}

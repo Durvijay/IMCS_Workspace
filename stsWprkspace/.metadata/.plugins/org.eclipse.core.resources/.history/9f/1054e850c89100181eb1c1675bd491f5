@@ -1,0 +1,64 @@
+package com.altimetrik.food.controller;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+
+import org.springframework.http.HttpMethod;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.altimetrik.food.bean.Calories;
+import com.altimetrik.food.bean.Ingredient;
+import com.altimetrik.food.bean.IngredientInfo;
+import com.altimetrik.food.bean.Recipe;
+import com.altimetrik.food.client.FoodSearchRestClient;
+import com.altimetrik.food.client.NutritionalRestClient;
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@RestController
+@RequestMapping("/food")
+public class FoodSearchController {
+	
+	FoodSearchRestClient foodSearchRestClient=new FoodSearchRestClient();
+	NutritionalRestClient nutritionalRestClient=new NutritionalRestClient();
+	
+	@RequestMapping(value="/search", method = RequestMethod.GET)
+	public List<IngredientInfo> foodsearch(@RequestParam String mealName) throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
+		Recipe mealrespnse = foodSearchRestClient.getRestRequestForReciepe(mealName, "&q="+mealName, HttpMethod.GET);
+		Object obj = mealrespnse.getHits().get(0);
+		HashMap<String, Object> test = (HashMap<String, Object>) obj;
+		ObjectMapper objectMapper = new ObjectMapper();
+		HashMap<String, Object> test1 = (HashMap<String, Object>) test.get("recipe");
+		List<IngredientInfo> recipe = objectMapper.readValue(objectMapper.writeValueAsString(test1.get("ingredients")),new TypeReference<List<IngredientInfo>>(){});
+		return recipe;
+		
+	}
+	@RequestMapping(value="/nutrient", method = RequestMethod.GET)
+	public Calories getCompleteNutrientValue(@RequestParam String mealName) throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
+		List<IngredientInfo> ingredient = foodsearch(mealName);
+		for (IngredientInfo ingredient2 : ingredient) {
+			
+			getIngredientNutrient(new Ingredient().setQuery(ingredient2.getQuery()));
+		}
+		return new Calories();
+	}
+	
+	public Calories getIngredientNutrient(Ingredient ingredient) throws JsonParseException, JsonMappingException, JsonProcessingException, IOException {
+		HashMap<String, Object> mealrespnse = (HashMap<String, Object>) nutritionalRestClient.getNutritionalValueOfIngredient(ingredient, HttpMethod.POST);
+		List<Object> obj = (List<Object>) mealrespnse.get("foods");
+		ObjectMapper objectMapper = new ObjectMapper();
+		Calories calories = objectMapper.readValue(objectMapper.writeValueAsString(obj.get(0)), Calories.class);
+		System.out.println("------------------------------------");
+		System.out.println(calories);
+		return calories;		
+	}
+
+}
